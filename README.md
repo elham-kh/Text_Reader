@@ -68,8 +68,8 @@ For the HoughLinesP function, there are several input arguments:
     - **threshold** - Accumulator threshold parameter. Only those lines are returned that get enough votes
     - **line** - Output vector of lines. Here is set to None, the value is saved to linesP
     - **minLineLength** - Minimum line length. Line segments shorter than that are rejected.
-    - **maxLineGap** - Maximum allowed gap between points on the same line to link them.
-
+    6. **maxLineGap** - Maximum allowed gap between points on the same line to link them.
+**maxLineGap** - Maximum allowed gap between points on the same line to link them.
 # [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF)
 OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.
 
