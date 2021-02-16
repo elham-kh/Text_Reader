@@ -70,7 +70,7 @@ For the HoughLinesP function, there are several input arguments:
 6. **minLineLength** - Minimum line length. Line segments shorter than that are rejected.
 7. **maxLineGap** - Maximum allowed gap between points on the same line to link them.
 
-3) Converting img to pdf
+3) Converting Image to pdf
 
 [img2pdf](https://github.com/jbarlow83/img2pdf/blob/master/README.md)
 =======
