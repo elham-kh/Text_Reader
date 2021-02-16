@@ -1,9 +1,9 @@
 # text reader
-text reader is a Python package extracting text from PDF.
-
-## Installation
+text reader is a Python package extracting text from PDF. There are different ways to extract text from pdf. If we want to extract information from image in PDF then we can change PDF to image and image to text. I found OCRmyPDF more robust. You can change PDF to image PDF like scanned PDF and then transfer it to readable PDF. Here are different packages I found to be able to extract text from PDF and images in the PDF. 
 
 1) Converting PDF to Image:
+
+## Installation
 
 This module converts a PDF to a PIL object. To install this module type the below command in the terminal.
 
@@ -70,7 +70,7 @@ For the HoughLinesP function, there are several input arguments:
 6. **minLineLength** - Minimum line length. Line segments shorter than that are rejected.
 7. **maxLineGap** - Maximum allowed gap between points on the same line to link them.
 
-3) Converting Image to pdf
+3) Converting Image to PDF
 
 [img2pdf](https://github.com/jbarlow83/img2pdf/blob/master/README.md)
 =======
@@ -358,7 +358,7 @@ input to RGB and removes the alpha channel from images with transparency. For
 multipage TIFF or animated GIF, it will only convert the first frame.
 
 
-4) Converting scanned pdf to readable pdf
+4) Converting scanned PDF to readable PDF
 
 # [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF)
 OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.
