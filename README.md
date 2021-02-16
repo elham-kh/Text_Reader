@@ -62,14 +62,13 @@ In OpenCV, there are two types of this algorithm, namely standard Hough Line Tra
 
 For the HoughLinesP function, there are several input arguments:
 
-    - **image** - 8-bit, single-channel binary source image. The image may be modified by the function.
-    - **rho** - Distance resolution of the accumulator in pixels.
-    - **theta** - Angle resolution of the accumulator in radians.
-    - **threshold** - Accumulator threshold parameter. Only those lines are returned that get enough votes
-    - **line** - Output vector of lines. Here is set to None, the value is saved to linesP
-    - **minLineLength** - Minimum line length. Line segments shorter than that are rejected.
-    6. **maxLineGap** - Maximum allowed gap between points on the same line to link them.
-**maxLineGap** - Maximum allowed gap between points on the same line to link them.
+1. **image** - 8-bit, single-channel binary source image. The image may be modified by the function.
+2. **rho** - Distance resolution of the accumulator in pixels.
+3. **theta** - Angle resolution of the accumulator in radians.
+4. **threshold** - Accumulator threshold parameter. Only those lines are returned that get enough votes
+5. **line** - Output vector of lines. Here is set to None, the value is saved to linesP
+6. **minLineLength** - Minimum line length. Line segments shorter than that are rejected.
+7. **maxLineGap** - Maximum allowed gap between points on the same line to link them.
 # [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF)
 OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.
 
